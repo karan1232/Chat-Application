@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ProfileSetup">
+
+    <ImageButton
+        android:id="@+id/profileImage"
+        android:layout_width="138dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/person" />
+
+    <EditText
+        android:id="@+id/aboutme"
+        android:layout_width="198dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="70dp"
+        android:hint="About" />
+
+    <Button
+        android:id="@+id/completeProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="Forward"/>
+</RelativeLayout>
